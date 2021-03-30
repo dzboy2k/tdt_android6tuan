@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bai16_TaoProjectAndroid</string>
+    <string-array name="arrThu">
+        <item>Thứ 2</item> <!-- Ctrl+ D: Nhân đôi dòng -->
+        <item>Thứ 3</item>
+    </string-array>
+</resources>

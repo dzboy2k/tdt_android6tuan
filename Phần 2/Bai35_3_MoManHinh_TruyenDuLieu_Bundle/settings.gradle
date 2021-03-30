@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Bai35_3_MoManHinh_TruyenDuLieu_Bundle"

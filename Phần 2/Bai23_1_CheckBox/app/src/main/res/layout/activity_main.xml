@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn thích học các môn nào của hệ thống Topica Edumall?"
+        android:textColor="#F51D1D"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình Android" />
+
+    <CheckBox
+        android:id="@+id/chkWindowsPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình Windows Phone" />
+
+    <CheckBox
+        android:id="@+id/chkIOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình IOS" />
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Chọn môn học"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3EE43B"
+        android:text="Các môn bạn đăng ký học là:"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/txtMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Các môn học sẽ hiển thị ở đây:"
+        android:textSize="23sp" />
+
+</LinearLayout>

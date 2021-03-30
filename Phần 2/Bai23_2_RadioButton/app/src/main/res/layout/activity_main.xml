@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mời bạn đánh giá hệ thống học của TOPICA EDUMALL"
+        android:textColor="#D32323"
+        android:textSize="22sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radRatTuyetVoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rất tuyệt vời" />
+
+        <RadioButton
+            android:id="@+id/radTuyetVoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuyệt vời" />
+
+        <RadioButton
+            android:id="@+id/radTamChapNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tạm chấp nhận" />
+
+        <RadioButton
+            android:id="@+id/radKhongTotLam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Không tốt lắm" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBinhChon"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Bình chọn"
+        android:textAllCaps="false" />
+</LinearLayout>
